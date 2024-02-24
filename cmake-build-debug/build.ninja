@@ -106,6 +106,39 @@ build bucles-while.exe: CXX_EXECUTABLE_LINKER__bucles-while_Debug CMakeFiles/buc
   TARGET_IMPLIB = libbucles-while.dll.a
   TARGET_PDB = bucles-while.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target bucles-if-else
+
+
+#############################################
+# Order-only phony target for bucles-if-else
+
+build cmake_object_order_depends_target_bucles-if-else: phony || CMakeFiles/bucles-if-else.dir
+
+build CMakeFiles/bucles-if-else.dir/bucles-if-else.cpp.obj: CXX_COMPILER__bucles-if-else_unscanned_Debug C$:/Users/kevin/CLionProjects/prueba$ corta/bucles-if-else.cpp || cmake_object_order_depends_target_bucles-if-else
+  DEP_FILE = CMakeFiles\bucles-if-else.dir\bucles-if-else.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\bucles-if-else.dir
+  OBJECT_FILE_DIR = CMakeFiles\bucles-if-else.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bucles-if-else
+
+
+#############################################
+# Link the executable bucles-if-else.exe
+
+build bucles-if-else.exe: CXX_EXECUTABLE_LINKER__bucles-if-else_Debug CMakeFiles/bucles-if-else.dir/bucles-if-else.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\bucles-if-else.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = bucles-if-else.exe
+  TARGET_IMPLIB = libbucles-if-else.dll.a
+  TARGET_PDB = bucles-if-else.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -132,6 +165,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build bucles-if-else: phony bucles-if-else.exe
+
 build bucles-while: phony bucles-while.exe
 
 build main: phony main.exe
@@ -144,7 +179,7 @@ build main: phony main.exe
 #############################################
 # Folder: C:/Users/kevin/CLionProjects/prueba corta/cmake-build-debug
 
-build all: phony main.exe bucles-while.exe
+build all: phony main.exe bucles-while.exe bucles-if-else.exe
 
 # =============================================================================
 # Built-in targets

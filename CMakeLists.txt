@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(main main.cpp)
 add_executable(bucles-while bucles-while.cpp)
+add_executable(bucles-if-else bucles-if-else.cpp)

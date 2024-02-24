@@ -1,3 +1,5 @@
 # ninja log v5
 1	1030	7304940746034261	CMakeFiles/bucles-while.dir/bucles-while.cpp.obj	206e064d5842b090
 1033	1255	7304940748161826	bucles-while.exe	6ccc1fd7143af2f8
+2	996	7304950116535596	CMakeFiles/bucles-if-else.dir/bucles-if-else.cpp.obj	f2f18a5a35977071
+997	1247	7304950118960383	bucles-if-else.exe	941f22ae03e0c19f
