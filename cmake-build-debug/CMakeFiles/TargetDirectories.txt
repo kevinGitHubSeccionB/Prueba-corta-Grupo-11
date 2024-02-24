@@ -1,0 +1,4 @@
+C:/Users/kevin/CLionProjects/prueba corta/cmake-build-debug/CMakeFiles/main.dir
+C:/Users/kevin/CLionProjects/prueba corta/cmake-build-debug/CMakeFiles/bucles-while.dir
+C:/Users/kevin/CLionProjects/prueba corta/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/kevin/CLionProjects/prueba corta/cmake-build-debug/CMakeFiles/rebuild_cache.dir

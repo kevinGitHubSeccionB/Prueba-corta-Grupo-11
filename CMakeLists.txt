@@ -3,4 +3,5 @@ project(prueba_corta)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(prueba_corta main.cpp)
+add_executable(main main.cpp)
+add_executable(bucles-while bucles-while.cpp)
